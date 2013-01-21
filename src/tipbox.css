@@ -120,4 +120,6 @@
 .ui-tipbox-white  {
     background: #fff;
     border: 1px solid transparent;
+    _border-color:tomato;   /* fix ie6 dont support border transparent */
+    _filter:chroma(color=tomato);
 }
