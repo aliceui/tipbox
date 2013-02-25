@@ -2,7 +2,7 @@
     "name": "tipbox",
     "version": "1.0.0",
     "root": "alice",
-    "description": "",
+    "description": "通用信息提示框。",
     "homepage": "",
     "author": "",
     "repository": {
