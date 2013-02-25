@@ -7,10 +7,10 @@
     "author": "",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/aliceui/tipbox"
     },
     "bugs": {
-        "url": ""
+        "url": "https://github.com/aliceui/tipbox/issues"
     },
     "license": "MIT",
     "dependencies": {
