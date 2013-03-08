@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "root": "alice",
     "description": "通用信息提示框。",
+    "keywords": [
+        "提示框"
+    ],
     "homepage": "",
     "author": "",
     "repository": {
