@@ -98,18 +98,17 @@
 .ui-tipbox-content .ui-tipbox-title {
     margin: 0;
     padding: 0;
+}
+
+.ui-tipbox-content h3.ui-tipbox-title,
+.ui-tipbox-content-simple h3.ui-tipbox-title {
+    color: #333;
     font-size: 14px;
     font-weight: bold;
 }
 
 .ui-tipbox-content-simple {
     margin: 22px 0 22px 88px;
-}
-
-.ui-tipbox-content h3 {
-    color: #333;
-    font-size: 14px;
-    font-weight: bold;
 }
 
 .ui-tipbox-explain {
