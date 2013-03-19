@@ -1,7 +1,7 @@
 {
     "name": "tipbox",
     "version": "1.0.0",
-    "root": "alice",
+    "family": "alice",
     "description": "通用信息提示框。",
     "keywords": [
         "提示框"
@@ -16,10 +16,7 @@
         "url": "https://github.com/aliceui/tipbox/issues"
     },
     "license": "MIT",
-    "dependencies": {
-    },
-    "tests": ["tipbox"],
-    "output": {
-        "tipbox.css": "."
+    "spm": {
+      "output": ["tipbox.css"]
     }
 }
