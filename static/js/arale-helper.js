@@ -1,7 +1,10 @@
 ;(function() {
 
   // 跨子域补丁
-  document.domain = document.domain.split(".").slice(-2).join("."); 
+  var temp = document.domain.split('.');
+  if (isNaN(temp[temp.length - 1])) {
+    document.domain = temp.slice(-2).join("."); 
+  }
 
   var CDN_MODULES = [
     'jquery', 'zepto', 'json', 'jasmine', 'underscore', 'handlebars',

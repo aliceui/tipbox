@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Tipbox - tipbox</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="nico 0.2.3" />
+    <meta name="generator" content="nico 0.2.4" />
     <link type="image/x-icon" href="./static/css/favicon.ico" rel="icon">
     <link rel="stylesheet" href="./static/css/normalize.css" />
     <link rel="stylesheet" href="./static/css/site.css" />
@@ -13,7 +13,7 @@
     <script src="./static/js/arale-helper.js"></script>
     <script src="./static/js/site.js"></script><script type="text/javascript">
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36247332-1']);
+  _gaq.push(['_setAccount', 'UA-39169474-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -34,12 +34,14 @@
     seajs.config({ alias: {} })
 
     // for alice
+    var array = [];
     for(var dep in data.dependencies) {
         // 如果依赖的是样式模块
         if (data.dependencies[dep].indexOf('.css') > 0) {
-            seajs.use(dep);
+            array.push(dep);
         }
     }
+    seajs.use(array);
 
   })();
 </script>
@@ -72,13 +74,13 @@
     <p>支付宝通用信息提示框样式，共有提示、成功、警告、等待等七种提示框。</p>
 
 <hr/>
-<h2 id="%E6%BC%94%E7%A4%BA-%E5%90%84%E7%B1%BB%E5%B8%B8%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E6%A1%86">演示 - 各类常用的提示框</h2>
+<h2 id="演示-各类常用的提示框">演示 - 各类常用的提示框</h2>
 <blockquote>
 <p>本组件使用了 <code>alice.iconfont</code> 组件，请保证页面引用了相应代码。</p>
 </blockquote>
 
 <p><link type="text/css" rel="stylesheet" media="screen" href="src/tipbox.css"></p>
-<h3 id="%E4%BF%A1%E6%81%AF">信息</h3>
+<h3 id="信息">信息</h3>
 <div class="nico-insert-code"><div class="ui-tipbox ui-tipbox-message">
     <div class="ui-tipbox-icon">
         <i class="iconfont" title="提示">&#x00ED;</i>
@@ -100,7 +102,7 @@
         <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tipbox-explain"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>查询缴费记录<span class="tag">&lt;/<span class="title">a</span>&gt;</span> | <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>我的支付宝<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">p</span>&gt;</span>
     <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-</code></pre></div><h3 id="%E5%87%BA%E9%94%99">出错</h3>
+</code></pre></div><h3 id="出错">出错</h3>
 <div class="nico-insert-code"><div class="ui-tipbox ui-tipbox-error">
     <div class="ui-tipbox-icon">
         <i class="iconfont" title="出错">&#x006B;</i>
@@ -122,7 +124,7 @@
         <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tipbox-explain"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>查询缴费记录<span class="tag">&lt;/<span class="title">a</span>&gt;</span> | <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>我的支付宝<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">p</span>&gt;</span>
     <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-</code></pre></div><h3 id="%E8%AD%A6%E5%91%8A">警告</h3>
+</code></pre></div><h3 id="警告">警告</h3>
 <div class="nico-insert-code"><div class="ui-tipbox ui-tipbox-warning">
     <div class="ui-tipbox-icon">
         <i class="iconfont" title="警告">&#x00EC;</i>
@@ -144,7 +146,7 @@
         <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tipbox-explain"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>查询缴费记录<span class="tag">&lt;/<span class="title">a</span>&gt;</span> | <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>我的支付宝<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">p</span>&gt;</span>
     <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-</code></pre></div><h3 id="%E6%88%90%E5%8A%9F">成功</h3>
+</code></pre></div><h3 id="成功">成功</h3>
 <div class="nico-insert-code"><div class="ui-tipbox ui-tipbox-success">
     <div class="ui-tipbox-icon">
         <i class="iconfont" title="成功">&#x00EF;</i>
@@ -166,7 +168,7 @@
         <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tipbox-explain"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>查询缴费记录<span class="tag">&lt;/<span class="title">a</span>&gt;</span> | <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>我的支付宝<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">p</span>&gt;</span>
     <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-</code></pre></div><h3 id="%E9%98%BB%E6%AD%A2">阻止</h3>
+</code></pre></div><h3 id="阻止">阻止</h3>
 <div class="nico-insert-code"><div class="ui-tipbox ui-tipbox-stop">
     <div class="ui-tipbox-icon">
         <i class="iconfont" title="阻止">&#x00EE;</i>
@@ -188,7 +190,7 @@
         <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tipbox-explain"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>查询缴费记录<span class="tag">&lt;/<span class="title">a</span>&gt;</span> | <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>我的支付宝<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">p</span>&gt;</span>
     <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-</code></pre></div><h3 id="%E7%AD%89%E5%BE%85">等待</h3>
+</code></pre></div><h3 id="等待">等待</h3>
 <div class="nico-insert-code"><div class="ui-tipbox ui-tipbox-wait">
     <div class="ui-tipbox-icon">
         <i class="iconfont" title="等待">&#x00F3;</i>
@@ -210,7 +212,7 @@
         <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tipbox-explain"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>查询缴费记录<span class="tag">&lt;/<span class="title">a</span>&gt;</span> | <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>我的支付宝<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">p</span>&gt;</span>
     <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-</code></pre></div><h3 id="%E7%96%91%E9%97%AE">疑问</h3>
+</code></pre></div><h3 id="疑问">疑问</h3>
 <div class="nico-insert-code"><div class="ui-tipbox ui-tipbox-question">
     <div class="ui-tipbox-icon">
         <i class="iconfont" title="疑问">&#x00F1;</i>
@@ -232,7 +234,7 @@
         <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tipbox-explain"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>查询缴费记录<span class="tag">&lt;/<span class="title">a</span>&gt;</span> | <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>我的支付宝<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">p</span>&gt;</span>
     <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-</code></pre></div><h3 id="%E7%A9%BA%E7%99%BD%E7%9A%84%E6%8F%90%E7%A4%BA%E6%A1%86%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%B5%8C%E5%85%A5%E5%88%B0-xbox-%E9%87%8C%EF%BC%8C%E4%B8%8E%E4%B8%8A%E9%9D%A2%E7%9A%84%E6%A0%B7%E5%BC%8F%E9%85%8D%E5%90%88%E4%BD%BF%E7%94%A8">空白的提示框，可以嵌入到 xbox 里，与上面的样式配合使用</h3>
+</code></pre></div><h3 id="空白的提示框，可以嵌入到-xbox-里，与上面的样式配合使用">空白的提示框，可以嵌入到 xbox 里，与上面的样式配合使用</h3>
 <div class="nico-insert-code"><div class="ui-tipbox ui-tipbox-white ui-tipbox-message">
     <div class="ui-tipbox-icon">
         <i class="iconfont" title="提示">&#x00ED;</i>    
@@ -254,7 +256,7 @@
         <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tipbox-explain"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>查询缴费记录<span class="tag">&lt;/<span class="title">a</span>&gt;</span> | <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>我的支付宝<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">p</span>&gt;</span>
     <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-</code></pre></div><h3 id="%E7%AE%80%E5%8D%95%E7%9A%84%E6%8F%90%E7%A4%BA%E6%A1%86">简单的提示框</h3>
+</code></pre></div><h3 id="简单的提示框">简单的提示框</h3>
 <div class="nico-insert-code"><div class="ui-tipbox ui-tipbox-message">
     <div class="ui-tipbox-icon">
         <i class="iconfont" title="提示">&#x00ED;</i>    
