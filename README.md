@@ -17,7 +17,7 @@
 ````html
 <div class="ui-tipbox ui-tipbox-message">
     <div class="ui-tipbox-icon">
-        <i class="iconfont" title="提示">&#x00ED;</i>
+        <i class="iconfont" title="提示">&#xF046;</i>
     </div>
     <div class="ui-tipbox-content">
         <h3 class="ui-tipbox-title">提示标题</h3>
@@ -32,7 +32,7 @@
 ````html
 <div class="ui-tipbox ui-tipbox-error">
     <div class="ui-tipbox-icon">
-        <i class="iconfont" title="出错">&#x006B;</i>
+        <i class="iconfont" title="出错">&#xF045;</i>
     </div>
     <div class="ui-tipbox-content">
         <h3 class="ui-tipbox-title">错误标题</h3>
@@ -47,7 +47,7 @@
 ````html
 <div class="ui-tipbox ui-tipbox-warning">
     <div class="ui-tipbox-icon">
-        <i class="iconfont" title="警告">&#x00EC;</i>
+        <i class="iconfont" title="警告">&#xF047;</i>
     </div>
     <div class="ui-tipbox-content">
         <h3 class="ui-tipbox-title">警告标题</h3>
@@ -62,7 +62,7 @@
 ````html
 <div class="ui-tipbox ui-tipbox-success">
     <div class="ui-tipbox-icon">
-        <i class="iconfont" title="成功">&#x00EF;</i>
+        <i class="iconfont" title="成功">&#xF049;</i>
     </div>
     <div class="ui-tipbox-content">
         <h3 class="ui-tipbox-title">成功标题</h3>
@@ -78,7 +78,7 @@
 ````html
 <div class="ui-tipbox ui-tipbox-stop">
     <div class="ui-tipbox-icon">
-        <i class="iconfont" title="阻止">&#x00EE;</i>
+        <i class="iconfont" title="阻止">&#xF048;</i>
     </div>
     <div class="ui-tipbox-content">
         <h3 class="ui-tipbox-title">阻止标题</h3>
@@ -93,7 +93,7 @@
 ````html
 <div class="ui-tipbox ui-tipbox-wait">
     <div class="ui-tipbox-icon">
-        <i class="iconfont" title="等待">&#x00F3;</i>
+        <i class="iconfont" title="等待">&#xF04B;</i>
     </div>
     <div class="ui-tipbox-content">
         <h3 class="ui-tipbox-title">等待标题</h3>
@@ -109,7 +109,7 @@
 ````html
 <div class="ui-tipbox ui-tipbox-question">
     <div class="ui-tipbox-icon">
-        <i class="iconfont" title="疑问">&#x00F1;</i>
+        <i class="iconfont" title="疑问">&#xF04A;</i>
     </div>
     <div class="ui-tipbox-content">
         <h3 class="ui-tipbox-title">疑问标题</h3>
@@ -124,7 +124,7 @@
 ````html
 <div class="ui-tipbox ui-tipbox-white ui-tipbox-message">
     <div class="ui-tipbox-icon">
-        <i class="iconfont" title="提示">&#x00ED;</i>    
+        <i class="iconfont" title="提示">&#xF046;</i>    
     </div>
     <div class="ui-tipbox-content">
         <h3 class="ui-tipbox-title">提示标题</h3>
@@ -139,7 +139,7 @@
 ````html
 <div class="ui-tipbox ui-tipbox-message">
     <div class="ui-tipbox-icon">
-        <i class="iconfont" title="提示">&#x00ED;</i>    
+        <i class="iconfont" title="提示">&#xF046;</i>    
     </div>
     <div class="ui-tipbox-content-simple">
         <h3 class="ui-tipbox-title">一句话就说明白的事</h3>
