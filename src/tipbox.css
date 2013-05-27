@@ -1,7 +1,5 @@
 /* alice.tipbox 样式模块 */
 
-@charset "utf-8";
-
 .ui-tipbox {
     position: relative;
     zoom: 1;
@@ -31,11 +29,11 @@
 
 .ui-tipbox-message {
     border: 1px solid #CBD7E2;
-    background: #E4F5FE;
+    background: #e5f2f8;
 }
 
 .ui-tipbox-message .ui-tipbox-icon .iconfont {
-    color: #0483CF;
+    color: #68b5e2;
 }
 
 .ui-tipbox-success {
