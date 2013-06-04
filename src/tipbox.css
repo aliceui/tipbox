@@ -24,11 +24,11 @@
     width: 32px;
     height: 32px;
     line-height: 36px;
-    text-shadow: 1px 1px 0 #fff;
+    text-shadow: 0 1px 0 #fff;
 }
 
 .ui-tipbox-message {
-    border: 1px solid #CBD7E2;
+    border: 1px solid #b2e2ea;
     background: #e5f2f8;
 }
 
@@ -38,56 +38,56 @@
 
 .ui-tipbox-success {
     border: 1px solid #E1E1CA;
-    background: #EDFED0;
+    background: #edfed0;
 }
 
 .ui-tipbox-success .ui-tipbox-icon .iconfont {
-    color: #20DC19;
+    color: #b5de70;
 }
 
 .ui-tipbox-error {
     background: #FDEEE9;
-    border: 1px solid #F6C7B8;
+    border: 1px solid #fadcd3;
 }
 
 .ui-tipbox-error .ui-tipbox-icon .iconfont {
-    color: #FF4800;
+    color: #f17975;
 }
 
 .ui-tipbox-warning {
-    background: #FEFEA4;
-    border: 1px solid #E6C46A;
+    background: #fefea4;
+    border: 1px solid #e6e098;
 }
 
 .ui-tipbox-warning .ui-tipbox-icon .iconfont {
-    color: #FFA700;
+    color: #ff9966;
 }
 
 .ui-tipbox-question {
-    border: 1px solid #CBD7E2;
-    background: #E4F5FE;
+    border: 1px solid #b2e2ea;
+    background: #e0f4ff;
 }
 
 .ui-tipbox-question .ui-tipbox-icon .iconfont {
-    color: #00B5F3;
+    color: #66cae2;
 }
 
 .ui-tipbox-stop {
     background: #FDEEE9;
-    border: 1px solid #F4C7B5;
+    border: 1px solid #fadcd3;
 }
 
 .ui-tipbox-stop .ui-tipbox-icon .iconfont {
-    color: #FF5500;
+    color: #f17975;
 }
 
 .ui-tipbox-wait {
-    border: 1px solid #E6CBB1;
+    border: 1px solid #fae3cc;
     background: #FFF9D9;
 }
 
 .ui-tipbox-wait .ui-tipbox-icon .iconfont {
-    color: #B26100;
+    color: #d1a066;
 }
 
 .ui-tipbox-content {
