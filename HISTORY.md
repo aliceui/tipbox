@@ -2,6 +2,10 @@
 
 ---
 
+## 1.2.0
+
+`changed` 迁移 spm@3.x
+
 ## 1.1.0
 
 `tag:improved` 调整色调。
