@@ -8,8 +8,6 @@
 
 ## 演示 - 各类常用的提示框
 
-> 本组件使用了 `alice.iconfont` 组件，请保证页面引用了相应代码。
-
 <link type="text/css" rel="stylesheet" media="screen" href="src/tipbox.css">
 
 ### 信息

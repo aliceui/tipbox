@@ -1,6 +1,6 @@
 {
   "name": "alice-tipbox",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "通用信息提示框。",
   "keywords": [
     "提示框"
@@ -16,6 +16,9 @@
   },
   "license": "MIT",
   "spm": {
-    "main": "src/tipbox.css"
+    "main": "src/tipbox.css",
+    "dependencies": {
+      "alice-iconfont": "1.1.0"
+    }
   }
 }
