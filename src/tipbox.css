@@ -1,5 +1,5 @@
 /* alice.tipbox 样式模块 */
-@import url("alice-iconfont");
+@import url("~alice-iconfont");
 
 .ui-tipbox {
     position: relative;

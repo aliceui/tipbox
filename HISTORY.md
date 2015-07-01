@@ -2,6 +2,10 @@
 
 ---
 
+## 1.3.0
+
+`tag:improved` 安装 spm@3.6 的规范给 import 包加 ~ 前缀
+
 ## 1.2.0
 
 `changed` 迁移 spm@3.x
